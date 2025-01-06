@@ -1,0 +1,40 @@
+.navbar{
+    background-color: rgb(5, 61, 67);
+    padding: 25px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.navLinks {
+    display:flex;
+    gap:20px;
+    justify-content: center;
+    
+}
+
+.navLinks > a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.navLinks > a:hover{
+    color: rgb(181, 141, 9);
+}
+
+.navLinks > button{
+    border-radius: 0.3rem;
+    padding: 0.5em 0.8em;
+    background-color: rgb(250, 244, 244);
+    color: rgb(5, 5, 5);
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+}
+
+.navLinks > button:hover {
+    background-color: #ddb514;
+}

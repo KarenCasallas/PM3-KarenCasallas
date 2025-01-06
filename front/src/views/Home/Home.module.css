@@ -1,0 +1,30 @@
+.home{
+    background-color: white;
+    height: 95vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tarjeta{
+    background-color: rgb(93, 112, 122);
+    padding: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.tarjeta > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: rgb(238, 185, 9);
+}
+
+.tarjeta > p {
+    font-size: 22px;
+    font-weight: 500;
+    color: rgb(249, 251, 252);
+}
+

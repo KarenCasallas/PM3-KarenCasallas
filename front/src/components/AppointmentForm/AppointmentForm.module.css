@@ -1,0 +1,30 @@
+.form{
+    background-color: rgb(216, 217, 217);
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-bottom: 2em;
+}
+
+.form > button {
+    border-radius: 0.3rem;
+    padding: 0.2em 0.9em;
+    margin-left: 0.2em;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form > button:hover {
+    background-color: #455c75;
+}
+
+.error {
+    color:orangered;
+    font-size: 12px;
+}

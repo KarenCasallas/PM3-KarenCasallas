@@ -1,0 +1,23 @@
+.card{
+    border: 3px solid rgb(6, 48, 69);
+    color: black;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card > button {
+    border-radius: 0.3rem;
+    padding: 0.2em 0.9em;
+    margin: 0.3em 0em;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.card > button:hover {
+    background-color: #455c75;
+}
